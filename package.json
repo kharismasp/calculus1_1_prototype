@@ -1,0 +1,9 @@
+{
+  "name": "calculus-functions-notebook",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "python3 scripts/build_content.py && python3 scripts/build_boards.py",
+    "test": "node --test scripts/math.test.mjs"
+  }
+}
